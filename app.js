@@ -33,7 +33,7 @@ function fetchdata(){
         })
         .join("");
         console.log(html);
-        document.querySelector("#Table").insertAdjacentHTML("afterbegin",html);
+        document.querySelector("#table").insertAdjacentHTML("afterbegin",html);
         
         })
         
